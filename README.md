@@ -16,7 +16,7 @@ manifest.json:: MUST BE NAMED AS SUCH - this is the core of the extension, and d
 
 \*.css :: the styling guide for the extension (again, the same as in a website or web app)
 
-\*.js :: the source of interactivity and dynamicism in the extension (once again, as in a website or app)
+\*.js :: the source of interactivity and dynamicism in the extension (once again, as in a website or app) - this is kept within a separate file and run as a script with an independent source in the html file as it is considered bad practice to simply embed script tags with live JavaScript all in the html file; however, the same level of interactivity and dynamicism supported in an independent web application or website that incorporates JavaScript is supported by linking the file as a script with an independent source within the extension
 
 \*.(png, jpeg, pdf, tiff, etc. [verify those file types but if they are supported, then they belong here]) :: any image files associated with the extension - typically they will simply be icons, at 128x128, 48x48, and 16x16 pixel resolutions for displaying within the Chrome extension library, pinning to the extension taskbar within the browser itself, and lastly (48x48) for something as of yet not encountered, though it could be as simple as screen resolution based on device
 
